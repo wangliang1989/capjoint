@@ -1,0 +1,24 @@
+####################################################
+#Original CAP(Cut and Paste) Script 
+#Waveform inversion program for source parameters
+#
+#Written by: Lupei Zhu
+#Modified by: Weiwen Chen
+#
+#Current Version: 2014/04/02
+####################################################
+# to compile the code, NR(Numerical Recipes) is needed
+# ,and should be purchased 
+####################################################
+
+#Compile the code:
+
+1.Specify the folder of NR in the line "NR = .."
+
+2.Enter the subhir/ folder and do makefile
+cd ./subhir/
+make
+
+
+
+
