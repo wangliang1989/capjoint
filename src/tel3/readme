@@ -1,0 +1,25 @@
+Output is in cm
+with a moment of 1e25 dyne-cm
+although this is just a guess
+
+
+changes made by zhongwen and chur
+do changes of t1 t2 o , and dif in fortrain, not in sac anymore
+change the npts and dt  to save more time: ND0 in two .f, and dt in one .f
+mute all output from tel3
+change the output filename so that all can be easily moved to modelx/modelx_x/
+
+after all of these, much faster 
+
+
+---chur finds out that maximum number of layers is 10
+more layers causes trouble
+
+
+----this is now a cleaned version from Chur, with only one perl script
+npts and dt can be changed without modifying the fortran code
+
+
+
+#############wenbo modified sub.bodyw3.f ,based on the difference 
+between eq 4.96 and 4.97 in Aki and Richard! Great!
