@@ -1,15 +1,16 @@
+FC = gfortran -ffixed-line-length-none
 FFLAGS = -O -g
-NR = $(HOME)/bin/NR/
+NR = nr/
 CFLAGS = ${FFLAGS} -I$(NR)/include
 
 SUBS = sacio.o fft.o Complex.o radiats.o radpmt.o butstsub.o grid3d.o
-SRC_INV = cap 
+SRC_INV = cap
 
-all: $(SRC_INV) fault 
+all: $(SRC_INV) fault
 	rm *.o
 
 $(SRC_INV): %:%.o $(SUBS)
-	$(LINK.f) -o $(HOME)/bin/cap $@.o $(SUBS) $(FGCCLIB) -L$(NR)/lib -lnrc
+	$(LINK.f) -o cap $@.o $(SUBS) $(FGCCLIB) -L$(NR)/lib -lnrc
 
 fault: fault.c
 	$(LINK.c) -o fault fault.c -lm
