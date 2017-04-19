@@ -1,0 +1,13 @@
+#	$Id: .gmtdefaults_SI.orig,v 1.1 2001/01/03 02:11:56 pwessel Exp $
+#
+#	GMT-SYSTEM 3.3.7 Defaults file
+#		SI Version
+#
+ANOT_MIN_ANGLE		= 20
+ANOT_FONT		= Helvetica
+ANOT_FONT_SIZE		= 10p
+ANOT_OFFSET		= 0.2c
+HEADER_FONT		= Helvetica
+HEADER_FONT_SIZE	= 18p
+LABEL_FONT		= Helvetica
+LABEL_FONT_SIZE		= 12p

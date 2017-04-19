@@ -1,0 +1,15 @@
+*.SAC
+*.[rtz]
+*.out
+*.ps
+.gmt_bb_info
+.gmtcommands4
+.gmtdefaults
+dash.dat
+mecherr.cmd
+new.dat
+quadratic.dat
+rdseed.err_log
+weight.dat
+yyy.dat
+
