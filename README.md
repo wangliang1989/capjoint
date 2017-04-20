@@ -45,7 +45,7 @@ make
 make
 ````
 
-**在编译完 teles 和 cap 之后，会分别生成可执行文件 teles 和 cap，请务必把他们拷贝到 `example/cmds` 下，之后 `/src` 路径可以删除**
+**在编译完 teles 和 cap 之后，会分别生成可执行文件 teles 和 cap，请务必把他们拷贝到 `example/cmds` 下**
 
 
 ## 运行例子
