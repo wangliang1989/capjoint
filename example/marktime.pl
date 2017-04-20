@@ -24,13 +24,13 @@ foreach my $Zfile (glob "*Z.SAC") {
         # p 波标在 *.?[LH]Z, t1是P或p的初至
         my @time = split /\s+/, `taup_time -mod prem -ph P,p -h $evdp -deg $gcarc --time`;
         my $t1 = min @time;
-        print SAC "r ${net}.${sta}.${loc}.?[LH]Z.SAC\n";
+        print SAC "r ${net}.${sta}.${loc}.*Z.SAC\n";
         print SAC "ch t1 $t1\n";
         print SAC "wh\n";
         # S 波标在 *?[LH][EN12], t1是S或s的初至
         @time = split /\s+/, `taup_time -mod prem -ph S,s -h $evdp -deg $gcarc --time`;
         $t1 = min @time;
-        print SAC "r ${net}.${sta}.${loc}.?[LH][EN12].SAC\n";
+        print SAC "r ${net}.${sta}.${loc}.*[EN12].SAC\n";
         print SAC "ch t1 $t1\n";
         print SAC "wh\n";
     }
