@@ -62,6 +62,11 @@ perl process.pl 20140310
 ````
 perl grn.pl 20140310
 ````
+### 生成权重文件
+
+```
+perl weight.pl 20140310
+```
 ### cap 反演
 
 ````
