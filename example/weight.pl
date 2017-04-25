@@ -20,12 +20,12 @@ foreach my $dir (@dir){
     open (OUT, "> ./$weight");
     foreach my $line (@lines) {
         my ($fname, $dist) = split m/\s+/, $line;
-        my ($net_sta) = split m/\./, $fname;
+        my ($net, $sta, $loc) = split m/\./, $fname;
         if ($dist < 600) {
-            print OUT "$net_sta $dist $dist 1 1 1 1 1 1 0 0\n";
+            print OUT "${net}.${sta}.${loc} $dist $dist 1 1 1 1 1 1 0 0\n";
         }elsif ($dist > 3000) {
             $dist = int $dist;# do not delete!
-            print OUT "$net_sta $dist $dist 1 0 0 0 1 0 0 0\n";
+            print OUT "${net}.${sta}.${loc} $dist $dist 1 0 0 0 1 0 0 0\n";
         }
     }
     chdir "..";
