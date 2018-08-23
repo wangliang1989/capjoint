@@ -8,12 +8,12 @@ CAPjoint 的官方发布地址是 http://home.ustc.edu.cn/~vincentc/CAPjoint
 
 ## 编译与安装
 
-地震学科研一般都要用的工具在此处不指导如何安装，只列出。此处的链接是指向安装帮助，这些软件都是必须的，请勿跳过：
-1. [SAC](https://seisman.github.io/SAC_Docs_zh/)
-2. [Tau-P](http://seisman.info/install-taup.html)
-3. [fk](http://seisman.info/fk-installation.html)
-4. [GMT4](http://seisman.info/install-gmt4-under-linux.html)
-5. [PSSAC2](http://seisman.info/install-pssac2.html)
+地震学科研一般都要用的工具在此处不指导如何安装，只列出。
+1. SAC
+2. Tau-P
+3. fk
+4. GMT4
+5. PSSAC2
 
 ### 下载
 
