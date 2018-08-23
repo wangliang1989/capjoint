@@ -4,7 +4,7 @@ CAPjoint 是中科大的 Weiwen Chen 和 Zhe Jia 基于朱露培教授的 CAP �
 CAPjoint 的官方发布地址是 http://home.ustc.edu.cn/~vincentc/CAPjoint
 
 这个 repo 是我在学习 CAPjoint 后整理并用 perl 改写其主要脚本后的脚本集。对 CAPjoint 方法本身并无任何改进。
-如果按照下面的流程，原则上可以把官方包内的例子跑出来。详细的笔记请看我的[博客](http://blog.wangliang.one/archives/2017-04-20_capjoint/)
+如果按照下面的流程，原则上可以把官方包内的例子跑出来。详细的笔记请看我的[博客](https://seismology.xyz/post/capjoint/)
 
 ## 编译与安装
 
